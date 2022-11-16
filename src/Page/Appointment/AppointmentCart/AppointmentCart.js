@@ -1,6 +1,7 @@
 import { format } from 'date-fns';
 import React, { useEffect, useState } from 'react';
 import AppointmentOptions from '../AppointmentOptions/AppointmentOptions';
+import AppointModal from '../AppointModal/AppointModal';
 
 const AppointmentCart = ({ selectedDate }) => {
     const [appointmentOption, setAppointmentOption] = useState();
@@ -21,6 +22,7 @@ const AppointmentCart = ({ selectedDate }) => {
                     appointmentOption?.map(appointmentOption => <AppointmentOptions appointmentOption={appointmentOption} key={appointmentOption._id}></AppointmentOptions>)
                 }
             </div>
+            <AppointModal></AppointModal>
         </div>
     );
 };

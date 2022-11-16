@@ -10,7 +10,7 @@ const AppointmentOptions = ({ appointmentOption }) => {
                 <p className='text-accent'>{slots?.length > 0 ? slots[0] : "Try Another Day"}</p>
                 <p className='text-accent'>{slots?.length} {slots?.length > 1 ? "SPACES" : "SPACE"} AVAILABLE</p>
                 <div className="card-actions">
-                    <button className="btn btn-primary">Book Appointment</button>
+                    <label htmlFor="my-modal-3" className="btn btn-primary">Book Appointment</label>
                 </div>
             </div>
         </div>

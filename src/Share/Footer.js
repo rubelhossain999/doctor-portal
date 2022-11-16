@@ -5,7 +5,7 @@ import FooterBG from '../assets/images/footer-bg.png'
 const Footer = () => {
     return (
         <div className='border-t-2 border-primary'>
-            <div className='max-w-[1440px] mx-auto grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 lg:p-0 p-10 lg:pt-12 pb-10' style={{
+            <div className='max-w-[1440px] mx-auto grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 lg:p-0 p-10 lg:pt-12 pb-10 justify-items-center' style={{
                 background: `url(${FooterBG})`,
                 backgroundSize: 'cover'
             }}>
