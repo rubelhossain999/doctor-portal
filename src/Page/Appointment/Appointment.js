@@ -4,8 +4,8 @@ import LandingBG from '../../assets/images/landing-bg.png';
 import AppointmentCart from './AppointmentCart/AppointmentCart';
 
 const Appointment = () => {
-
     const [selectedDate, setSelectedDate] = useState(new Date());
+
     return (
         <div>
             <div style={{
